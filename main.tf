@@ -10,7 +10,7 @@ resource "aws_instance" "k8_workstation" {
     # }
     #associate_public_ip_address = true
     root_block_device {
-        volume_size = 50
+        volume_size = 20
     }
 
     vpc_security_group_ids = ["sg-0d91387712ba38962"]
